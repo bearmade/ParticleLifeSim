@@ -1,0 +1,58 @@
+[
+	{
+		"file": "C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\Source\\ParticleLifeSim\\Particle.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\.vscode\\compileCommands_ParticleLifeSim\\ParticleLifeSim.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\Source\\ParticleLifeSim\\Particle.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\.vscode\\compileCommands_ParticleLifeSim\\ParticleLifeSim.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\Source\\ParticleLifeSim\\ParticleLifeSim.Build.cs",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\.vscode\\compileCommands_ParticleLifeSim\\ParticleLifeSim.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\Source\\ParticleLifeSim\\ParticleLifeSim.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\.vscode\\compileCommands_ParticleLifeSim\\ParticleLifeSim.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\Source\\ParticleLifeSim\\ParticleLifeSim.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\.vscode\\compileCommands_ParticleLifeSim\\ParticleLifeSim.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\Source\\ParticleLifeSim\\ParticleSimulationActor.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\.vscode\\compileCommands_ParticleLifeSim\\ParticleLifeSim.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\Source\\ParticleLifeSim\\ParticleSimulationActor.h",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.41.34120\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\bearm\\OneDrive\\Desktop\\ParticleLifeSim\\.vscode\\compileCommands_ParticleLifeSim\\ParticleLifeSim.1.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Source"
+	}
+]
