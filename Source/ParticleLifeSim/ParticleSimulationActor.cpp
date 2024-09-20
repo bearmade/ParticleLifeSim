@@ -52,6 +52,11 @@ void AParticleSimulationActor::BeginPlay()
     
 }
 
+/// Ticks the particle simulation, applying the simulation rules and drawing the particles.
+///
+/// This function is called every frame by the engine. It applies the particle interaction rules defined in the `ApplyRules` function, and then draws the current positions of all particles using the `DrawDebugPoint` function.
+///
+/// @param DeltaTime The time since the last frame, in seconds.
 void AParticleSimulationActor::Tick(float DeltaTime)
 {
     Super::Tick(DeltaTime);
@@ -67,6 +72,12 @@ void AParticleSimulationActor::Tick(float DeltaTime)
     }
 }
 
+/// Creates a number of particles with the specified color.
+///
+/// This function spawns a number of particles in the world and adds them to the Particles array. The particles are positioned randomly within a bounded area, and are assigned the specified color.
+///
+/// @param Number The number of particles to create.
+/// @param Color The color to assign to the new particles.
 void AParticleSimulationActor::CreateParticles(int32 Number, FLinearColor Color)
 {
     for (int32 i = 0; i < Number; ++i)
