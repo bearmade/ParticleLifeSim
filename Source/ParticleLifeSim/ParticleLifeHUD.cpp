@@ -13,7 +13,7 @@ void AParticleLifeHUD::DrawHUD()
 {
     Super::DrawHUD();
     // Draw a simple message on the screen
-    DrawText(FString("My Hud"), FLinearColor::White, 100.0f, 100.0f, nullptr, 1.0f, 1.0f);
+    //DrawText(FString("My Hud"), FLinearColor::White, 100.0f, 100.0f, nullptr, 1.0f, 1.0f);
     
 
 }
