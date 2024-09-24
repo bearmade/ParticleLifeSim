@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
-
-#include "GameFramework/CharacterMovementComponent.h"
 #include "ParticleLifeCharacter.h"
+#include "GameFramework/CharacterMovementComponent.h"
+
 
 // Sets default values
 AParticleLifeCharacter::AParticleLifeCharacter()
