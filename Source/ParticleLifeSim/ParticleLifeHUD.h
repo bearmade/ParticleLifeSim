@@ -20,6 +20,15 @@ public:
 	virtual void DrawHUD() override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
+    float UniversalRepulsionFactor;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
+    float UniversalRepulsionModifier;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
+    float UniversalRepulsionDistance;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
+    float timeScale;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
 	float PurplePurpleStrength;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interaction")
 	float PurpleRedStrength;
@@ -53,8 +62,18 @@ public:
 	float RedBlueStrength;
 	
 
-	// Add similar UPROPERTY declarations for other interaction strengths
+	UFUNCTION(BlueprintCallable, Category = "Interaction")
+	void UpdateUniversalRepulsionFactor(float NewFactor);
 
+	UFUNCTION(BlueprintCallable, Category = "Interaction")
+	void UpdateUniversalRepulsionModifier(float NewFactor);
+
+	UFUNCTION(BlueprintCallable, Category = "Interaction")
+	void UpdateUniversalRepulsionDistance(float NewFactor);
+
+	UFUNCTION(BlueprintCallable, Category = "Interaction")
+	void timeScaler(float NewFactor);
+	
 	UFUNCTION(BlueprintCallable, Category = "Interaction")
 	void UpdateInteractionStrength(FString ColorA, FString ColorB, float NewStrength);
 };

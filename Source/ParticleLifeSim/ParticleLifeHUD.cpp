@@ -6,18 +6,35 @@
 
 AParticleLifeHUD::AParticleLifeHUD()
 {
-    // Constructor logic here
+    
 }
 
 void AParticleLifeHUD::DrawHUD()
 {
     Super::DrawHUD();
-    // Draw a simple message on the screen
-    //DrawText(FString("My Hud"), FLinearColor::White, 100.0f, 100.0f, nullptr, 1.0f, 1.0f);
+ 
     
 
 }
+void AParticleLifeHUD::UpdateUniversalRepulsionFactor(float NewFactor)
+{
+    UniversalRepulsionFactor = NewFactor;
+}
 
+void AParticleLifeHUD::UpdateUniversalRepulsionModifier(float NewFactor)
+{
+    UniversalRepulsionModifier = NewFactor;
+}
+
+void AParticleLifeHUD::UpdateUniversalRepulsionDistance(float NewFactor)
+{
+    UniversalRepulsionDistance = NewFactor;
+}
+
+void AParticleLifeHUD::timeScaler(float NewFactor)
+{
+    timeScale = NewFactor;
+}
 
 void AParticleLifeHUD::UpdateInteractionStrength(FString ColorA, FString ColorB, float NewStrength)
 {
@@ -56,5 +73,4 @@ void AParticleLifeHUD::UpdateInteractionStrength(FString ColorA, FString ColorB,
     GreenGreenStrength = NewStrength;
     
 
-    // Add similar conditions for other color combinations
 }
